@@ -15,7 +15,7 @@
   
   main {
     display: grid;
-    background: #ff8fab;
+    /* background: #ffb3c6; */
     grid-template-rows: repeat( 1fr);
     height: 100vh;
     align-items: center;

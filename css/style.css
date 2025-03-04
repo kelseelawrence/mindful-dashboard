@@ -15,7 +15,7 @@ body {
      font-weight: 800;
      color: #fb6f92;
      text-align: center;
-     background: #ffe5ec;
+     /* background: #ffe5ec; */
    }
 
    .date {
@@ -24,7 +24,7 @@ body {
      font-weight: 600;
      color: #fb6f92;
      text-align: center;
-     background: #ffe5ec;
+     /* background: #ffe5ec; */
    }
 
    p {
@@ -33,5 +33,5 @@ body {
      font-weight: 200;
      color: #fb6f92;
      text-align: center;
-     background: #ffe5ec;
+     /* background: #ffe5ec; */
    }
