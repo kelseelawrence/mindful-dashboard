@@ -6,29 +6,32 @@
 
 
 body {
-    background: #bfd3c1;
+    background: #ffc2d1;
   }
   
   .time {
     font-family: Azeret Mono;
      font-size: 5em;
      font-weight: 800;
+     color: #fb6f92;
      text-align: center;
-     background: #ffe5d4;
+     background: #ffe5ec;
    }
 
    .date {
     font-family: Azeret Mono;
      font-size: 3em;
      font-weight: 600;
+     color: #fb6f92;
      text-align: center;
-     background: #ffe5d4;
+     background: #ffe5ec;
    }
 
    p {
     font-family: Azeret Mono;
      font-size: 2em;
      font-weight: 200;
+     color: #fb6f92;
      text-align: center;
-     background: #ffe5d4;
+     background: #ffe5ec;
    }
