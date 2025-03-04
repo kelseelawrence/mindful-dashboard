@@ -1,5 +1,5 @@
 // Function
-const getDaysUntilEvent = (eventDate) => {
+export const getDaysUntilEvent = (eventDate) => {
   // Create Date objects for now and the event
   const now = new Date();
   const event = new Date(eventDate);
@@ -21,8 +21,5 @@ const getDaysUntilEvent = (eventDate) => {
   return daysUntil;
 };
 
-// Call the function after defining it
-let eventDate = "2025-06-14";
-const daysUntilEvent = getDaysUntilEvent(eventDate);
-console.log(`Days until event: ${daysUntilEvent}`);
+
 
