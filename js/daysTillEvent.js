@@ -1,25 +1,23 @@
-// Function
-export const getDaysUntilEvent = (eventDate) => {
-  // Create Date objects for now and the event
-  const now = new Date();
+// Function to calculate days until the event
+function getDaysUntilEvent(eventDate) {
   const event = new Date(eventDate);
+  const today = new Date();
 
-  // Clear time portion for accurate day calculation
-  now.setHours(0, 0, 0, 0);
-  event.setHours(0, 0, 0, 0);
+  // Calculate the difference in time
+  const timeDifference = event - today;
 
-  console.log(`Current date: ${now}`);
-  console.log(`Event date: ${event}`);
+  // Convert milliseconds to days
+  return Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+}
 
-  // Calculate difference in milliseconds
-  const diffInTime = event.getTime() - now.getTime();
-  console.log(`Difference in time (ms): ${diffInTime}`);
+// Function
+const eventDate = "2025-06-14";
+const daysUntilEvent = getDaysUntilEvent(eventDate);
+console.log( daysUntilEvent );
 
-  // Convert to days
-  const daysUntil = Math.ceil(diffInTime / (1000 * 60 * 60 * 24));
+// Get HTML element
+const elem = document.querySelector('.daysUntilEvent');
 
-  return daysUntil;
-};
-
-
-
+// Set to HTML
+elem.textContent = daysUntilEvent;
+elem.setAttribute("datetime", eventDate );
