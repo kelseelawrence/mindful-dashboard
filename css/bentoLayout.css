@@ -13,16 +13,18 @@
     align-items: center;
   }
   
-  .bento-container {
-    background: #ccc;
-    width: 90%;
-    max-width: 1200px;
-    padding: 1rem;
-  
+  main {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 1rem;
+    background: #efc7c2;
+    grid-template-rows: repeat( 1fr);
+    height: 100vh;
+    align-items: center;
+  }
+
+  main time { 
+    text-align: center;
+    /* grid-column: span 1; */
+  }
   
     /* optional. fixed aspect ratio   */
     /*   aspect-ratio: 16/9; */
@@ -44,22 +46,6 @@
     background: orange;
   }
   
-  /* Featured items */
-  .feature-1 {
-    grid-column: span 1;
-    grid-row: span 1;
-    background: #fdf2f8;
-  }
-  
-  .feature-2 {
-    grid-column: span 1;
-    background: #f0fdf4;
-  }
-  
-  .feature-3 {
-    grid-row: span 1;
-    background: #eff6ff;
-  }
   
   /* Responsive "tablet" size */
   @media (max-width: 768px) {
