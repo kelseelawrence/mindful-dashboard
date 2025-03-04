@@ -1,20 +1,12 @@
 # Mindful Dashboard
 
 ## Why? 
-* Introductiont to core JavaScript concepts
-* Explore JavaScript Date objects
-* Manipulate the DOM nodes with dynamic content
-* Apply CSS styling to dynamic data
-* Explore pro/cons of JS libraries, plugins, frameworks, etc.
-
-## Citations
-* List your citations here
-
-## How?
-* Simply click on "Use this template" button to create a new repository
+* I made this with the intention of using it on my iPad as a clock in my room. 
+* I like the color pink. 
+* I am in my final stretch of school and I need the countdown to give me some extra motivation. 
 
 ## Citations
 * [Normalize CSS](https://necolas.github.io/normalize.css/)
 * [Font Share](https://www.fontshare.com/)
-
+* Inspiration from [Coolors](https://coolors.co/)
 
